@@ -1,0 +1,132 @@
+/* media 14000 */
+
+@media (max-width:1400px) {
+.container{
+max-width: 1400px !important;
+padding: 0px 20px;
+}
+}
+
+/* media 1400 end */
+
+
+/* media 991px s */
+@media (max-width:991px) {
+
+    .newslatter_anya_main_div{
+        margin-bottom: 110px;
+    }
+
+.offcanvas_btn{
+display: block !important;
+}
+
+.phone-d-none-topbar{
+display: none !important;
+}
+
+.anya_left_side_top{
+text-align: center !important;
+}
+
+
+.about_anya_head_ti h1 {
+font-size: 30px !important;
+}
+
+}
+/* media 991px end */
+
+
+/* 767 media */
+@media (max-width:767px) {
+
+    .slider_section_phone{
+        display: block !important;
+    }
+
+         .slider_section{
+             display: none !important;
+         }
+
+    .overya_inner_dt_icons_left {
+            position: absolute;
+            bottom: 15% !important;
+            left: 2%;
+            transition: .4s ease-in-out;
+            text-align: center;
+        }
+
+                 .overya_inner_dt_icons_right {
+                     position: absolute;
+                     bottom: 15% !important;
+                     right: 2%;
+                     transition: .4s ease-in-out;
+                     text-align: center;
+                 }
+
+    .copyright-wrap{
+        padding-bottom: 45px !important;
+    }
+
+
+    .why_choose_us_section {
+            padding-top: 45px;
+            padding-bottom: 130px;
+            background-color: var(--background-color);
+            margin-bottom: 40px;
+        }
+
+    .why_us_img_div{
+        margin-top: 80px;
+    }
+
+        .why_overlay_div img {
+            width: 150px !important;
+        }
+
+                .why_overlay_div2 img {
+                    width: 100px !important;
+                }
+
+    .about_us_img_ovr, .about_us_img_ovr2{
+        display: none;
+    }
+
+    .navbar-brand {
+width: 220px !important;
+    }
+
+    .anya_left_side_top a:nth-child(3) {
+            padding: 0px 5px 0px 5px;
+            border-right: 1px double var(--lightgray-color);
+            display: inline-block !important;
+        }
+
+.anya_left_side_top a:nth-child(1) {
+border-right: 1px double var(--lightgray-color);
+padding: 0px 5px 0px 0px!important;
+}
+
+.anya_left_side_top a:nth-child(2) {
+padding: 0px 5px 0px 5px!important;
+border-right: 1px double var(--lightgray-color);
+}
+
+.anya_left_side_top a:nth-child(3) {
+padding: 0px 5px 0px 5px;
+border-right: 1px double var(--lightgray-color);
+display: inline-block !important;
+}
+
+
+.anya_ph_none{
+display: none !important;
+}
+
+.anya-right_side_top{
+    display: none !important;
+}
+
+}
+/* 767 media */
